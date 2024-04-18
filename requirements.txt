@@ -5,11 +5,11 @@ markdown>=3.2
 mkdocs==1.4.3
 mkdocs-material-extensions>=1.1
 pygments>=2.12
-pymdown-extensions==9.9.2
+pymdown-extensions==10.0
 
 # Requirements for Social Previews
-cairosvg==2.5.2
-pillow==9.3.0
+cairosvg==2.7.0
+pillow==10.3.0
 
 # Lightbox requirements
 mkdocs-glightbox==0.2.1
@@ -25,4 +25,4 @@ lxml>=4.6
 paginate>=0.5.6
 readtime>=2.0
 regex>=2022.4.24
-requests==2.26
+requests==2.31.0
