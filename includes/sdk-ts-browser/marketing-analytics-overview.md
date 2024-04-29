@@ -9,10 +9,10 @@ There are five different standard UTM parameters:
 |<div class="med-column">Name</div>|Description|
 |-|-|
 |`utm_source`| This identifies which website sent the traffic (for example, Google, Facebook) |
-|`utm_medium`| This identifies a specific campaign used (for example, "summer_sale") |
-|`utm_campaign`| This identifies a specific campaign used (for example, "summer_sale") |
+|`utm_medium`| This identifies how the traffic gets  (for example, cpc, email) |
+|`utm_campaign`| This identifies a specific campaign used (for example, summer_sale) |
 |`utm_term`| This identifies paid search terms used (for example, product+analytics) |
-|`utm_content` | This identifies what brought the user to the site and is commonly used for A/B testing (for example, "banner-link", "text-link") |
+|`utm_content` | This identifies what brought the user to the site and is commonly used for A/B testing (for example, banner-link, text-link) |
 
 Here is an example URL with UTM parameters:
 
