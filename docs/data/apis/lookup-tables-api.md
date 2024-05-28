@@ -5,7 +5,7 @@ description: The Lookup Table API lets you create, get, update, and delete looku
 
 Lookup tables let you augment user and event properties. Instead of using formulas, you can upload a CSV file that contains property mappings to derive new properties. 
 
-To create a lookup property, create a lookup table to reference. You can retrieve and update each of the tables using the API. Lookup Tables have unique names and have a project scope.
+To create a lookup property, create a Lookup Table to reference. You can retrieve and update each of the tables using the API. Lookup Tables have unique names and have a project scope.
 
 You can also create and manage lookup tables from the Amplitude web app. See [Lookup Table](/data/sources/lookup-table) for more information.
 
@@ -29,7 +29,7 @@ The CSV file must follow the following requirements:
 - The first column must correspond to the mapping property value and must contain *unique* values. Lookup Tables search for exact matches, and are *case-sensitive*.
 - Columns are separated by commas.
 - Rows are separated by line breaks.
-- If a field value contains commas or quotes, it should be wrapped within double quotation marks. The first double quote signifies the beginning of the column data, and the last double quote marks the end. If the value contains a string with double quotes, these are replaced by two double quotes `""`.
+- If a field value contains commas or quotes, it should be wrapped within double quotation marks. The first double quote signifies the beginning of the column data, and the last double quote marks the end. If the value contains a string with double quotes, these are replaced by double quotes.
 
 ## Create a Lookup Table
 

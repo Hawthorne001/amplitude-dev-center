@@ -24,13 +24,13 @@ To set up this integration, you need the following:
     - The first column must correspond to the mapping property value and must contain *unique* values. Lookup Tables search for exact matches, and are *case-sensitive*.
     - Columns must be separated by commas.
     - Rows must be separated by line breaks.
-    - If a field value contains commas or quotes, it should be wrapped within double quotation marks. The first double quote signifies the beginning of the column data, and the last double quote marks the end. If the value contains a string with double quotes, these are replaced by two double quotes `""`.
+    - If a field value contains commas or quotes, it should be wrapped within double quotation marks. The first double quote signifies the beginning of the column data, and the last double quote marks the end. If the value contains a string with double quotes, these are replaced by double quotes.
 
 ### Amplitude setup
 
 1. In Amplitude Data, click **Catalog** and select the **Sources** tab.
 2. In the Lookup Tables section, click **CSV**.
-3. Select column in CSV as the key column.
+3. Select a column in the CSV to be the key column.
 4. Map your property.
 5. When you're done mapping, click **Finish**.
 
