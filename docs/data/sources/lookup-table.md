@@ -24,7 +24,7 @@ To set up this integration, you need the following:
     - The first column must correspond to the mapping property value and must contain *unique* values. Lookup Tables search for exact matches, and are *case-sensitive*.
     - Columns must be separated by commas.
     - Rows must be separated by line breaks.
-    - If a field value contains commas or quotes, wrap the contents with double quotation marks (`"`). The first double quote signifies the beginning of the column data, and the last double quote marks the end. If the value contains a string with double quotes, these are replaced by double quotes.
+    - If a field value contains commas or quotes, wrap the contents with double quotation marks (`"`). The first double quote signifies the beginning of the column data, and the last double quote marks the end. If a string contains double quotes, replace them with single quotes.
 
 ### Amplitude setup
 
