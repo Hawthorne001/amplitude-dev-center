@@ -14,8 +14,7 @@ status: new
 
 - You must enable this integration in each Amplitude project you want to use it in.
 - You will need to have a paid CommandBar plan to enable this integration.
-- CommandBar only accepts email addresses as the identifier. This means the User_ID or user property you select in Amplitude must contain an email address.
-
+  
 ## Setup
 
 ### CommandBar setup
