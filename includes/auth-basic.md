@@ -7,4 +7,4 @@ Your authorization header should look something like this:
 `--header 'Authorization: Basic YWhhbWwsdG9uQGFwaWdlZS5jb206bClwYXNzdzByZAo'`
 
 
-See [Find your Amplitude Project API Credentials](../find-api-credentials.md) for help locating your credentials. 
+See [Find your Amplitude Project API Credentials](/analytics/find-api-credentials/) for help locating your credentials. 

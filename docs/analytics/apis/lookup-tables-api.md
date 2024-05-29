@@ -3,8 +3,11 @@ title: Lookup Table API
 description: The Lookup Table API lets you create, get, update, and delete lookup tables to augment your data.
 ---
 
+!!!deprecated "This version of the Lookup Tables API is deprecated"
+    This API is no longer supported. Use the new [API](/data/apis/lookup-tables-api). 
+
 !!!beta "This feature is in beta"
-        This requires that you have the `lookup_table` feature enabled in Amplitude. Contact your Amplitude account manager if you need help.
+    This requires that you have the `lookup_table` feature enabled in Amplitude. Contact your Amplitude account manager if you need help.
 
 Lookup tables let you augment user and event properties. Instead of using formulas, you can upload a CSV file that contains property mappings to derive new properties. 
 

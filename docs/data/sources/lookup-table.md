@@ -24,14 +24,14 @@ To set up this integration, you need the following:
     - The first column must correspond to the mapping property value and must contain *unique* values. Lookup Tables search for exact matches, and are *case-sensitive*.
     - Columns must be separated by commas.
     - Rows must be separated by line breaks.
-    - If a field value contains commas or quotes, it should be wrapped within double quotation marks. The first double quote signifies the beginning of the column data, and the last double quote marks the end. If the value contains a string with double quotes, these are replaced by two double quotes `""`.
+    - If a field value contains commas or quotes, wrap the contents with double quotation marks (`"`). The first double quote signifies the beginning of the column data, and the last double quote marks the end. If a string contains double quotes, replace them with single quotes.
 
 ### Amplitude setup
 
 1. In Amplitude Data, click **Catalog** and select the **Sources** tab.
 2. In the Lookup Tables section, click **CSV**.
-3. Upload the CSV then click **Next**.
-4. Map your event property.
+3. Select a column in the CSV to be the key column.
+4. Map your property.
 5. When you're done mapping, click **Finish**.
 
 ## Update a lookup table
@@ -39,18 +39,16 @@ To set up this integration, you need the following:
 If you want to create a new lookup property or that mapped property is wrong, you can update the lookup table.
 
 1. In Amplitude, navigate to Data Sources, then find the lookup table in the Sources table.
-2. Click the **Edit Lookup Table Configuration** tab.
-3. Make your changes. You can change the mapping, or replace the CSV by uploading a new one.
-4. When finished, click **Update your lookup table configuration**.
+2. Make your changes. You can change the mapping, or replace the CSV by uploading a new one.
+3. When finished, click **Save Changes**.
 
 ## Delete the lookup table and its properties
 
 When you no longer need a lookup table, you can delete it.
 
 1. In Amplitude, navigate to Data Sources, then find the lookup table in the Sources table.
-2. Click the **Edit Lookup Table Configuration** tab.
-3. Click the trash icon.
-4. Follow the on-screen instructions.
+2. Click the trash icon.
+3. Follow the on-screen instructions.
 
 ## Lookup table use cases
 

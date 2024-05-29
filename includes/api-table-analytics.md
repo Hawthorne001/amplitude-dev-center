@@ -11,7 +11,8 @@
 |[Group Identify](../apis/group-identify-api)|Set or update properties of particular groups.|
 |[HTTP V2](../apis/http-v2-api)|Send data directly from your server to the HTTP V2 endpoint.|
 |[Identify](../apis/identify-api)|Set the User ID for a particular Device ID or update user properties of a particular user without sending an event.|
-|[Lookup Tables](../apis/lookup-tables-api)|Augment your properties with static data.|
+|[Lookup Tables (deprecated)](../apis/lookup-tables-api)|Augment your properties with static data.|
+|[Lookup Tables (v3)](/data/apis/lookup-tables-api)|Augment your properties with static data.|
 |[Releases](../apis/releases-api)|Programmatically create releases in Amplitude using the Releases API. |
 |[SCIM](../apis/scim-api)|Provision and manage users and groups. This API uses the System for Cross-domain Identity Management (SCIM) 2.0 Standard.|
 |[Taxonomy](../apis/taxonomy-api)|Create, get, update, and delete categories, event types, event properties, and user properties.|
