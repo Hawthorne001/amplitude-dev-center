@@ -17,7 +17,8 @@ var consent = __md_get("__consent")
 if (consent) {
     // The user accepted the cookie.
     // Only opt-in if running in prod.
-    if (url.hostname === 'docs.developers.amplitude.com' || url.hostname === 'www.docs.developers.amplitude.com') {
+    const hostname = window.location.hostname;
+    if (hostname === 'docs.developers.amplitude.com' || hostname === 'www.docs.developers.amplitude.com') {
         window.amplitude.setOptOut(false);
     }
 
