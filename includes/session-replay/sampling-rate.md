@@ -1,6 +1,9 @@
 ### Sampling rate
 
- By default, Session Replay captures 0% of sessions for replay. Use the `sampleRate` configuration option to set the percentage of total sessions that Session Replay captures. For example:
+!!!info "Initial sample rate"
+    When you first instrument Amplitude and Session Replay, Session Replay defaults to a 100% sample rate to help with validation. After you validate that Session Replay works, decrease the rate as recommended in the following section.
+
+Use the `sampleRate` configuration option to set the percentage of total sessions that Session Replay captures. For example:
 
 ```js
 // This configuration samples 1% of all sessions
@@ -8,6 +11,9 @@ await sessionReplay.init(AMPLITUDE_API_KEY, {
   sampleRate: 0.01
 }).promise;
 ```
+
+!!!tip
+    Update sample rate from the Session Replay settings screen in Amplitude. See [The Settings page](https://help.amplitude.com/hc/en-us/articles/235649848-The-Settings-page#h_01HWX78NJWG0ZEYZ2D8Z6CW10P) for more information.
 
 To set the `sampleRate` consider the monthly quota on your Session Replay plan. For example, if your monthly quota is 2,500,000 sessions, and you average 3,000,000 monthly sessions, your quota is 83% of your average sessions. In this case, to ensure sampling lasts through the month, set `sampleRate` to `.83` or lower.
 
