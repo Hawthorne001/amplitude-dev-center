@@ -4,6 +4,8 @@ description: Learn about Amplitude's experimentation and feature-flagging platfo
 toplevel: true
 ---
 
+!!!info "[Web experimentation](./web/index.md) URL redirect tests are now in Beta!"
+
 Welcome to Amplitude Experiment. This page acts as a quick reference as well as a high level system overview of Experiment's end-to-end feature-flagging and experimentation platform.
 
 <div class="grid cards" markdown>

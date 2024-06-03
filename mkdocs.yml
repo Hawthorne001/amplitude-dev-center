@@ -469,6 +469,8 @@ nav:
           - Versions: experiment/apis/management-api/versions.md
       - Integrations:
         - Contentful: experiment/integrations/contentful.md
+      - Web Experimentation:
+        - experiment/web/index.md
   - Session Replay:
       - session-replay/index.md
       - Overview: session-replay/index.md
