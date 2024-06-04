@@ -2,9 +2,6 @@
 title: Contentful Plugin for Amplitude Experiment
 ---
 
-!!!beta "Closed Beta"
-    The Amplitude Experiment Contentful plugin is in closed beta. Contact your Amplitude representative or email experiment@amplitude.com if you're interested.
-
 The Contentful plugin for Amplitude Experiment enables businesses to create variations of content in Contentful, and use Experiment to control which variant users see, and track performance of those variants.
 
 ## Features
@@ -17,7 +14,6 @@ The Contentful plugin for Amplitude Experiment enables businesses to create vari
 To use the plugin, ensure you have the following:
 
 - Access to an Amplitude plan with Amplitude Experiment enabled.
-- The Contentful Plugin for Amplitude Experiment, to be sent by the Amplitude Experiment team.
 - Your Amplitude Org URL value. This value appears in the URL you use to access Amplitude: `https://app.amplitude.com/experiment/<ORG_URL>/dashboard`
 - A Management API key, which you can find in the Experiment side bar.
 
@@ -27,11 +23,11 @@ Complete the following steps in Contentful and Amplitude to add and activate the
 
 ### Install the plugin
 
-1. Install the plugin you receive from the Amplitude Experiment team.
-2. In the plugin configuration, enter the Org URL and Management API key you created in Experiment. Click **Install to selected environments**.
+1. Install the [plugin](https://www.contentful.com/marketplace/app/amplitude-experiment/) from the Contentful marketplace.
+2. In the plugin configuration, enter the data center, Org URL and Management API key you created in Experiment. Click **Install to selected environments**.
 3. Click **Save** to complete the plugin setup.
 
-When you enable the plugin, a `Variant Container` content model appears on the Content Model tab. 
+When you enable the plugin, a `Variant Container` content model appears on the Content Model tab.
 
 ### Add a variant container to one of your content models
 
