@@ -1257,12 +1257,13 @@ Learn more about [Middleware](../../sdk-middleware).
     ```
 
 ### Carrier tracking
+
 --8<-- "includes/sdk-ios/apple-deprecate-carrier.md"
 
 ### SDK bundle size
+
 --8<-- "includes/size/ios.md"
 `./measure_cocoapod_size.py --cocoapods Amplitude:8.17.1`.
-
 
 --8<-- "includes/sdk-ios/privacy-manifest.md"
 

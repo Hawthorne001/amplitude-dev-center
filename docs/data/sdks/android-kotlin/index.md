@@ -13,6 +13,9 @@ The Kotlin Android SDK lets you send events to Amplitude. This library is open-s
 !!!info "Android SDK Resources"
     [:material-github: GitHub](https://github.com/amplitude/Amplitude-Kotlin) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Kotlin/releases) · [:material-book: API Reference](https://amplitude.github.io/Amplitude-Kotlin) · [Migration guide](/data/sdks/android-kotlin/migration/)
 
+--8<-- "includes/ampli-vs-amplitude.md"
+    Click here for more documentation on [Ampli for Android](./ampli.md).
+
 ## Getting started
 
 Use [this quickstart guide](../../sdks/sdk-quickstart#android) to get started with Amplitude Android Kotlin SDK.
@@ -1104,4 +1107,3 @@ selecting ["Amplitude Android Kotlin SDK"](https://mvnrepository.com/artifact/co
 ### Minimum version 
 
 For the minimum supported SDK version of this package, see [`build.gradle`](https://github.com/amplitude/Amplitude-Kotlin/blob/main/android/build.gradle#L24) on GitHub.
-    

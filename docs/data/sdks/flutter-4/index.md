@@ -345,4 +345,5 @@ amplitude.reset();
 ## Advanced topics
 
 ### Bundle size
+
 --8<-- "includes/size/flutter.md"

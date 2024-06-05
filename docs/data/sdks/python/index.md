@@ -12,6 +12,8 @@ The Python SDK lets you send events to Amplitude. This library is open-source, c
 !!!info "Python SDK Resources"
     [:material-github: GitHub](https://github.com/amplitude/Amplitude-Python) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Python/releases) · [:material-book: API Reference](https://github.com/amplitude/Amplitude-Python)
 
+--8<-- "includes/ampli-vs-amplitude.md"
+
 ## Getting started
 
 Use [this quickstart guide](../../sdks/sdk-quickstart#python) to get started with Amplitude Python SDK.

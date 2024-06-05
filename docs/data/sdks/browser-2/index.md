@@ -14,6 +14,9 @@ This SDK is compatible with :amp-session-replay:[Amplitude Session Replay](/sess
 !!!info "Browser SDK Resources"
     [:material-github: GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/main/packages/analytics-browser) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-TypeScript/releases?q=%40amplitude%2Fanalytics-browser%402&expanded=true) · [v1.0 SDK migration](/data/sdks/browser-2/migration/) · [Maintenance SDK migration](/data/sdks/typescript-browser/migration/)
 
+--8<-- "includes/ampli-vs-amplitude.md"
+    Click here for more documentation on [Ampli for Browser](./ampli.md).
+
 ## Getting started
 
 Use [this quickstart guide](../sdk-quickstart#browser) to get started with Amplitude Browser SDK.

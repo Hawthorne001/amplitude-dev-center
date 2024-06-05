@@ -11,6 +11,9 @@ This is the official documentation for the Amplitude Analytics iOS SDK.
 !!!info "iOS SDK Resources"
     [:material-github: GitHub](https://github.com/amplitude/Amplitude-Swift) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Swift/releases) · [:material-book: Examples](https://github.com/amplitude/Amplitude-Swift/tree/main/Examples/AmplitudeSwiftUIExample) · [Migration guide](/data/sdks/ios-swift/migration/)
 
+--8<-- "includes/ampli-vs-amplitude.md"
+    Click here for more documentation on [Ampli for iOS](./ampli.md).
+
 ## Getting started
 
 Use [this quickstart guide](../../sdks/sdk-quickstart#ios) to get started with Amplitude iOS SDK.
@@ -1077,14 +1080,13 @@ Follow the steps on how to [create your app's privacy](https://developer.apple.c
 ![The default privacy report.](../../../assets/images/sdk/AmplitudeSwiftUIExample-PrivacyReport.png)
 
 ### SDK bundle size
+
 --8<-- "includes/size/ios.md"
 `./measure_cocoapod_size.py --cocoapods AmplitudeSwift:1.0.0`.
 
 ### Minimum version
 For the minimum supported platform versions of this package, see [`Package.swift`](https://github.com/amplitude/Amplitude-Swift/blob/main/Package.swift#L8-L12) on GitHub.
 
-
 ### More resources
 
 If you have any problems or issues with the SDK, [create a GitHub issue](https://github.com/amplitude/Amplitude-Swift/issues/new) or submit a request on [Amplitude Help](https://help.amplitude.com/hc/en-us/requests/new).
-

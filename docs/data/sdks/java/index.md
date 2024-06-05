@@ -12,6 +12,8 @@ This is the documentation for the **Amplitude Analytics Java SDK**, not the Andr
 !!!info "JRE SDK Resources"
     [:material-github: GitHub](https://github.com/amplitude/Amplitude-Java) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Java/releases)
 
+--8<-- "includes/ampli-vs-amplitude.md"
+    Click here for more documentation on [Ampli for JRE](./ampli.md).
 
 ## Getting started
 
@@ -362,5 +364,6 @@ If you have problems, open an issue on the [GitHub issues page](https://github.
 ## Advanced topics
 
 ### Bundle size
+
 --8<-- "includes/size/java.md"
 selecting "Amplitude Java SDK".
