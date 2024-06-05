@@ -1,7 +1,7 @@
 ### Sampling rate
 
 !!!info "Initial sample rate"
-    When you first instrument Amplitude and Session Replay, Session Replay defaults to a 100% sample rate to help with validation. After you validate that Session Replay works, decrease the rate as recommended in the following section.
+    As a new organization in Amplitude, when you instrument the Amplitude Browser SDK and Session Replay using the code snippet, Session Replay defaults to a 100% sample rate to help with validation. After you validate that Session Replay works, decrease the rate as recommended in the following section.
 
 Use the `sampleRate` configuration option to set the percentage of total sessions that Session Replay captures. For example:
 
