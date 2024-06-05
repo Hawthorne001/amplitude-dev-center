@@ -128,11 +128,14 @@ The Session Replay plugin follows the Browser SDK's `optOut` setting, and doesn'
 Once enabled, Session Replay runs on your site until either:
 
 - The user leaves your site
-- You call `amplitude.remove('sessionReplayTracking')`
+- You call `amplitude.remove(sessionReplayTracking.name)`
 
-Call `amplitude.remove('sessionReplayTracking')` before a user navigates to a restricted area of your site to disable replay collection while the user is in that area. 
+Call `amplitude.remove(sessionReplayTracking.name)` before a user navigates to a restricted area of your site to disable replay collection while the user is in that area. 
 
-To restart replay collection, call `amplitude.add('sessionReplayTracking')` to re-add the plugin.
+To restart replay collection, call `amplitude.add(sessionReplayTracking)` to re-add the plugin.
+
+!!!note
+    These examples assume you use the variable `sessionReplayTracking` in your initialization code.
 
 You can also use a feature flag product like Amplitude Experiment to create logic that enables or disables replay collection based on criteria like location. For example, you can create a feature flag that targets a specific user group, and add that to your initialization logic:
 
