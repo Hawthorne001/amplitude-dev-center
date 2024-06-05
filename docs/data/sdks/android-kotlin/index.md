@@ -1096,7 +1096,7 @@ You can also implement you own offline logic:
 1. Set `config.offline` to `AndroidNetworkConnectivityCheckerPlugin.Disabled` to disable the default offline logic.
 2. Toggle `config.offline` by yourself
 
-### SDK Bundle size
+### SDK bundle size
 
 --8<-- "includes/size/java.md"
 selecting ["Amplitude Android Kotlin SDK"](https://mvnrepository.com/artifact/com.amplitude/analytics-android).
