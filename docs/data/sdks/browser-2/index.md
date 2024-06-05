@@ -12,16 +12,7 @@ This is the official documentation for the Amplitude Analytics JavaScript/Typesc
 This SDK is compatible with :amp-session-replay:[Amplitude Session Replay](/session-replay).
 
 !!!info "Browser SDK Resources"
-    [:material-github: GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/main/packages/analytics-browser) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-TypeScript/releases?q=analytics-browser&expanded=true)
-
---8<-- "includes/ampli-vs-amplitude.md"
-    Click here for more documentation on [Ampli for Browser](./ampli.md).
-
-!!!note "Migration guide"
-    This is the documentation for the Amplitude Browser SDK 2.0. If you are using the Browser SDK 1.0, refer to the migration documentation: [Browser SDK 2.0 Migration Guide](/data/sdks/browser-2/migration/). If you are using the maintenance SDK, refer to the migration documentation: [Browser SDK Migration Guide](/data/sdks/typescript-browser/migration/).
-
---8<-- "includes/size/browser.md"
-    For example you can search [`@amplitude/analytics-browser`](https://bundlephobia.com/package/@amplitude/analytics-browser) at a specific version.
+    [:material-github: GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/main/packages/analytics-browser) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-TypeScript/releases?q=%40amplitude%2Fanalytics-browser%402&expanded=true) · [v1.0 SDK migration](/data/sdks/browser-2/migration/) · [Maintenance SDK migration](/data/sdks/typescript-browser/migration/)
 
 ## Getting started
 
@@ -30,8 +21,6 @@ Use [this quickstart guide](../sdk-quickstart#browser) to get started with Ampli
 ## Usage
 
 ### Initialize the SDK
-
---8<-- "includes/sdk-httpv2-notice-ts.md"
 
 --8<-- "includes/sdk-ts-browser/init.md"
 
@@ -48,6 +37,8 @@ amplitude.init(AMPLITUDE_API_KEY, 'user@amplitude.com');
 // Option 4, initialize with a user ID and options
 amplitude.init(AMPLITUDE_API_KEY, 'user@amplitude.com', options);
 ```
+
+--8<-- "includes/sdk-httpv2-notice-ts.md"
 
 ### Configuration
 
@@ -527,3 +518,7 @@ SPA typically don't experience a true page load after a visitor enters the site,
 *[Campaign]: Including all UTM parameters, all Referrer parameters and all Click IDs
 *[Direct traffic]: No value for any campaign parameters
 *[SPA]: Single Page Application
+
+### SDK bundle size
+
+You can find the SDK bundle size for all versions here[@amplitude/analytics-browser](https://bundlephobia.com/package/@amplitude/analytics-browser).

@@ -12,14 +12,6 @@ The Python SDK lets you send events to Amplitude. This library is open-source, c
 !!!info "Python SDK Resources"
     [:material-github: GitHub](https://github.com/amplitude/Amplitude-Python) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Python/releases) · [:material-book: API Reference](https://github.com/amplitude/Amplitude-Python)
 
-!!!info "Supported Python Versions"
-    The Python SDK supports Python version 3.6+. The Python SDK repository runs tests on all supported versions.
-
---8<-- "includes/ampli-vs-amplitude.md"
-
-!!!info "SDK bundle size"
-    You can get the SDK bundle size by checking PyPI. For example [v1.1.3](https://pypi.org/project/amplitude-analytics/1.1.3/#files).
-
 ## Getting started
 
 Use [this quickstart guide](../../sdks/sdk-quickstart#python) to get started with Amplitude Python SDK.
@@ -432,3 +424,13 @@ class MyDestinationPlugin(DestinationPlugin):
 client = Amplitude(AMPLITUDE_API_KEY)
 client.add(MyDestinationPlugin())
 ```
+
+## Advanced topics
+
+### Bundle size
+
+You can get the SDK bundle size by checking PyPI. For example [v1.1.3](https://pypi.org/project/amplitude-analytics/1.1.3/#files).
+
+### Supported python versions
+
+The Python SDK supports Python version 3.6+. The Python SDK repository runs tests on all supported versions.

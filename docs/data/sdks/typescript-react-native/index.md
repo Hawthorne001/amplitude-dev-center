@@ -9,18 +9,9 @@ icon: simple/react
 The React Native SDK lets you send events to Amplitude. This library is open-source, check it out on [GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/v1.x/packages/analytics-react-native).
 
 !!!info "React Native SDK Resources"
-    [:material-github: GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/v1.x/packages/analytics-react-native) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-TypeScript/releases?q=analytics-react-native&expanded=true) · [:material-book: API Reference](https://amplitude.github.io/Amplitude-TypeScript/)
-
---8<-- "includes/ampli-vs-amplitude.md"
-    Click here for more documentation on [Ampli for React Native](../typescript-react-native/ampli.md).
-
---8<-- "includes/sdk-migration/admonition-link-to-migration-docs.md"
-    [React Native SDK Migration Guide](/data/sdks/typescript-react-native/migration/).
+    [:material-github: GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/v1.x/packages/analytics-react-native) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-TypeScript/releases?q=analytics-react-native&expanded=true) · [:material-book: API Reference](https://amplitude.github.io/Amplitude-TypeScript/) · [Migration guide](/data/sdks/typescript-react-native/migration/)
 
 --8<-- "includes/sdk-rn/rn-notification.md"
-
---8<-- "includes/size/browser.md"
-    For example you can search `@amplitude/analytics-react-native@0.5.1`.
 
 ## Compatibility Matrix
 
@@ -787,3 +778,7 @@ Below are versions of the SDK with the native code changes:
 | @amplitude/analytics-react-native                                                                                     |
 |-----------------------------------------------------------------------------------------------------------------------|
 | [1.3.0](https://github.com/amplitude/Amplitude-TypeScript/releases/tag/%40amplitude%2Fanalytics-react-native%401.3.0) |
+
+### SDK bundle size
+
+You can find the SDK bundle size for all versions here[@amplitude/analytics-react-native](https://bundlephobia.com/package/@amplitude/analytics-react-native).

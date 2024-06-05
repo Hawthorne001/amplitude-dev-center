@@ -1,2 +1,1 @@
-!!!info "SDK bundle size"
-    You can get the SDK bundle size by checking [Maven repository](https://mvnrepository.com/artifact/com.amplitude). Select the version you are using and you can find the size in the "Files" row after 
+You can get the SDK bundle size by checking [Maven repository](https://mvnrepository.com/artifact/com.amplitude). Select the version you are using and you can find the size in the "Files" row after 

@@ -9,9 +9,6 @@ The Go SDK lets you send events to Amplitude. This library is open-source, check
 !!!info "Go SDK Resources"
     [:material-github: GitHub](https://github.com/amplitude/analytics-go) · [:material-code-tags-check: Releases](https://github.com/amplitude/analytics-go/releases) · [:material-book: API Reference](https://pkg.go.dev/github.com/amplitude/analytics-go/amplitude)
 
---8<-- "includes/ampli-vs-amplitude.md"
-    Click here for more documentation on [Ampli for Go](./ampli.md).
-
 ## Getting started
 
 Use [this quickstart guide](../../sdks/sdk-quickstart#go) to get started with Amplitude Go SDK.
