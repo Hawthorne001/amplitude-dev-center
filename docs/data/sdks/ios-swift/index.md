@@ -1085,6 +1085,7 @@ Follow the steps on how to [create your app's privacy](https://developer.apple.c
 `./measure_cocoapod_size.py --cocoapods AmplitudeSwift:1.0.0`.
 
 ### Minimum version
+
 For the minimum supported platform versions of this package, see [`Package.swift`](https://github.com/amplitude/Amplitude-Swift/blob/main/Package.swift#L8-L12) on GitHub.
 
 ### More resources

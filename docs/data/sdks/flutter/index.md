@@ -482,6 +482,7 @@ Append the following Amplitude-JavaScript snippet into `web/index.html` in you
 ```
 
 ### Bundle size
+
 --8<-- "includes/size/flutter.md"
 
 ## Compatibility Matrix
