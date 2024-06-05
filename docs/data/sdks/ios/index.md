@@ -19,11 +19,6 @@ This is the official documentation for the Amplitude Analytics iOS SDK.
 --8<-- "includes/ampli-vs-amplitude.md"
     Click here for more documentation on [Ampli for iOS](./ampli.md).
 
---8<-- "includes/sdk-ios/apple-deprecate-carrier.md"
-
---8<-- "includes/size/ios.md"
-    `./measure_cocoapod_size.py --cocoapods Amplitude:8.17.1`.
-
 !!! info "Minimum versions"
     For the minimum supported platform versions of this package, see [`Package.swift`](https://github.com/amplitude/Amplitude-iOS/blob/main/Package.swift#L8-L12) on GitHub.
 
@@ -1260,6 +1255,15 @@ Learn more about [Middleware](../../sdk-middleware).
     ```swift
     let amplitude = Amplitude.instanceWithName("my-unqiue-instance-name")
     ```
+
+### Carrier tracking
+
+--8<-- "includes/sdk-ios/apple-deprecate-carrier.md"
+
+### SDK bundle size
+
+--8<-- "includes/size/ios.md"
+`./measure_cocoapod_size.py --cocoapods Amplitude:8.17.1`.
 
 --8<-- "includes/sdk-ios/privacy-manifest.md"
 
