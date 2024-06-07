@@ -49,3 +49,6 @@ Multiple instantiation of the Amplitude SDKs. This is a common problem seen with
 
 - There is more than 1 “Init Tag” or another custom tag that’s running Amplitude. 
 - You have another Code Injection Framework (for example, SquareSpace or Bubble) that also runs Amplitude. 
+
+!!!info 
+    This template uses the Amplitude Browser SDK. For help troubleshooting, see [Troubleshooting | Browser SDK](/session-replay/sdks/plugin/#troubleshooting)
