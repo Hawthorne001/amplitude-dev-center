@@ -3,11 +3,11 @@ title: Humanic AI Event Streaming
 description: Stream Amplitude events to Humanic AI
 ---
 
-!!!beta "This feature is in open beta"
+[Humanic AI](https://www.humanic.ai/) is an Agentic Marketing Platform that helps you unlock growth by using AI agents. 
 
-    This feature is in open beta and is in active development. Contact the [Humanic AI Support team](https://www.Humanic AI.com) for support with this integration.
+!!!Tip
 
-[Humanic AI](https://Humanic AI.com/) Humanic AI is a data-driven experimentation platform for A/B testing and data analysis, offering unlimited tests, accelerated results, seamless integration, real-time reporting, and robust analytical tools. It enables businesses to optimize digital performance and make data-driven decisions with ease.
+    This integration is maintained by Humanic AI. Email [care@humanic.ai](mailto:care@humanic.ai) for support with this integration. 
 
 ## Considerations
 
