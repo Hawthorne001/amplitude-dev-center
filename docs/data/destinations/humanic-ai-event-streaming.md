@@ -19,7 +19,7 @@ description: Stream Amplitude events to Humanic AI
 
 ### Humanic AI setup
 
-1. Log in to your [Humanic AI account](https://www.google.com/url?q=https://dashboard.humanic.ai/&sa=D&source=docs&ust=1718221705159195&usg=AOvVaw35JyMQx4p7cxsiEOBh7gIX).
+1. Log in to your [Humanic AI account](https://dashboard.humanic.ai/).
 2. Navigate to the **Profile** section by clicking on the name icon located on top right.
 3. Go to the **API Key** tab and click on the **Create** button.
 4. Copy the API key as this will be required to setup the integration in Amplitude.
