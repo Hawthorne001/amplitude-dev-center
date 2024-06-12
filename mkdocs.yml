@@ -321,6 +321,7 @@ nav:
         - Hotjar: data/destinations/hotjar-event-streaming.md
         - Hubspot: data/destinations/hubspot-event-streaming.md
         - Hubspotv2: data/destinations/hubspot-event-streaming-v2.md
+        - Humanic AI: data/destinations/humanic-ai-event-streaming.md
         - Intercom: data/destinations/intercom.md
         - Iterable: data/destinations/iterable.md
         - Kameleoon: data/destinations/kameleoon-event-streaming.md
