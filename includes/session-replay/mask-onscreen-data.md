@@ -16,8 +16,8 @@ In the event of a conflict, Session Replay defers to the remote setting. For exa
 
 |                | .selector-1 | .selector-2 | .selector-3 |
 | -------------- | ----------- | ----------- | ----------- |
-| Remote setting | `unmask`    | `unmask`    | --          |
 | Local setting  | `mask`      | --          | `mask`      |
+| Remote setting | `unmask`    | `unmask`    | --          |
 | Result         | `unmask`    | `unmask`    | `mask`      |
 
 In this example, `.selector-1` has a local setting and a remote setting. The result follows the remote setting, and overrides the setting in the SDK or plugin implementation.
