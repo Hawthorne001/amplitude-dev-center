@@ -236,4 +236,6 @@ Wordpress
 Autocapture
 Blueshift
 Humanic
+Humanic-ai
+humanic-ai
 Candu
