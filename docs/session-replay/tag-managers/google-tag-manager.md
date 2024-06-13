@@ -6,11 +6,12 @@ Instrumenting Amplitude Session Replay with Google Tag Manager requires a differ
 
 1. Add the [Google Tag Manager Web Template for Amplitude Analytics Browser SDK](/data/sources/google-tag-manager-client/) if it's not yet enabled.
 2. In Google Tag Manager, create an **init** tag with the same API key as your Amplitude Project. This is the project that receives the session replays.
-   1. Set the **Trigger** to `Initialization - All Pages`.
+   1. Set the **Trigger** to `Initialization`.
    2. Amplitude recommends that you enable default event tracking for better search support with Session Replay. Default events count against your event quota.
 3. Create a **Custom HTML** tag for Session Replay, and paste the code shown below.
-4. Set **Trigger** for the Session Replay Tag to `Initialization - All Pages`.
-5. Deploy the tags. Replays should begin to appear on the home page of the Amplitude app. Ensure that you're looking at the correct project.
+4. Set **Trigger** for the Session Replay Tag to `Initialization`.
+5. Sequence the Amplitude Initialization Tag to fire **after** the Session Replay tag. 
+6. Deploy the tags. Replays should begin to appear on the home page of the Amplitude app. Ensure that you're looking at the correct project.
 
 ```html title="Session Replay Script for Google Tag Manager" hl_lines="22"
 <script>
@@ -34,7 +35,10 @@ Instrumenting Amplitude Session Replay with Google Tag Manager requires a differ
 
     loadAsync("https://cdn.amplitude.com/libs/plugin-session-replay-browser-@{$ browser.session_replay.plugin.version $}-min.js.gz", 
       function () {
-        window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1})); 
+        var sessionReplayTracking = window.sessionReplay.plugin({sampleRate: 1});
+        window.amplitude.add(sessionReplayTracking).promise.then(function() {
+           console.log("Session Replay plugin loaded");
+      });
     });
 
 </script>
