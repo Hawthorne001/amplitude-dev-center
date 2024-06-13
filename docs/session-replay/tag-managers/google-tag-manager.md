@@ -36,9 +36,7 @@ Instrumenting Amplitude Session Replay with Google Tag Manager requires a differ
     loadAsync("https://cdn.amplitude.com/libs/plugin-session-replay-browser-@{$ browser.session_replay.plugin.version $}-min.js.gz", 
       function () {
         var sessionReplayTracking = window.sessionReplay.plugin({sampleRate: 1});
-        window.amplitude.add(sessionReplayTracking).promise.then(function() {
-           console.log("Session Replay plugin loaded");
-      });
+        window.amplitude.add(sessionReplayTracking).promise;
     });
 
 </script>
