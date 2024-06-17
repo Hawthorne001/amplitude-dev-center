@@ -2,7 +2,7 @@
 title: Session Replay Browser SDK Plugin
 ---
 
-!!!note "Session Replay Insrumentation"
+!!!note "Session Replay Instrumentation"
     Session Replay isn't enabled by default, and requires setup beyond the standard Amplitude instrumentation.
 
 This article covers the installation of Session Replay using the Browser SDK plugin. If your site is already instrumented with Amplitude, use this option. If you use a provider other than Amplitude for in-product analytics, choose the [standalone implementation](/session-replay/sdks/standalone).
@@ -128,11 +128,14 @@ The Session Replay plugin follows the Browser SDK's `optOut` setting, and doesn'
 Once enabled, Session Replay runs on your site until either:
 
 - The user leaves your site
-- You call `amplitude.remove('sessionReplayTracking')`
+- You call `amplitude.remove(sessionReplayTracking.name)`
 
-Call `amplitude.remove('sessionReplayTracking')` before a user navigates to a restricted area of your site to disable replay collection while the user is in that area. 
+Call `amplitude.remove(sessionReplayTracking.name)` before a user navigates to a restricted area of your site to disable replay collection while the user is in that area. 
 
-To restart replay collection, call `amplitude.add('sessionReplayTracking')` to re-add the plugin.
+To restart replay collection, call `amplitude.add(sessionReplayTracking)` to re-add the plugin.
+
+!!!note
+    These examples assume you use the variable `sessionReplayTracking` in your initialization code.
 
 You can also use a feature flag product like Amplitude Experiment to create logic that enables or disables replay collection based on criteria like location. For example, you can create a feature flag that targets a specific user group, and add that to your initialization logic:
 

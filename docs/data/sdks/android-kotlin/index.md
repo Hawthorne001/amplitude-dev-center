@@ -11,20 +11,11 @@ search:
 The Kotlin Android SDK lets you send events to Amplitude. This library is open-source, check it out on [GitHub](https://github.com/amplitude/Amplitude-Kotlin).
 
 !!!info "Android SDK Resources"
-    [:material-github: GitHub](https://github.com/amplitude/Amplitude-Kotlin) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Kotlin/releases) · [:material-book: API Reference](https://amplitude.github.io/Amplitude-Kotlin)
+    [:material-github: GitHub](https://github.com/amplitude/Amplitude-Kotlin) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Kotlin/releases) · [:material-book: API Reference](https://amplitude.github.io/Amplitude-Kotlin) · [Migration guide](/data/sdks/android-kotlin/migration/)
 
 --8<-- "includes/ampli-vs-amplitude.md"
     Click here for more documentation on [Ampli for Android](./ampli.md).
 
---8<-- "includes/sdk-migration/admonition-link-to-migration-docs.md"
-    [Android SDK Migration Guide](/data/sdks/android-kotlin/migration/).
-
---8<-- "includes/size/java.md"
-    selecting ["Amplitude Android Kotlin SDK"](https://mvnrepository.com/artifact/com.amplitude/analytics-android).
-
-!!! info "Minimum version"
-    For the minimum supported SDK version of this package, see [`build.gradle`](https://github.com/amplitude/Amplitude-Kotlin/blob/main/android/build.gradle#L24) on GitHub.
-    
 ## Getting started
 
 Use [this quickstart guide](../../sdks/sdk-quickstart#android) to get started with Amplitude Android Kotlin SDK.
@@ -1107,3 +1098,12 @@ You can also implement you own offline logic:
 
 1. Set `config.offline` to `AndroidNetworkConnectivityCheckerPlugin.Disabled` to disable the default offline logic.
 2. Toggle `config.offline` by yourself
+
+### SDK bundle size
+
+--8<-- "includes/size/java.md"
+selecting ["Amplitude Android Kotlin SDK"](https://mvnrepository.com/artifact/com.amplitude/analytics-android).
+
+### Minimum version 
+
+For the minimum supported SDK version of this package, see [`build.gradle`](https://github.com/amplitude/Amplitude-Kotlin/blob/main/android/build.gradle#L24) on GitHub.

@@ -15,9 +15,6 @@ This is the documentation for the **Amplitude Analytics Java SDK**, not the Andr
 --8<-- "includes/ampli-vs-amplitude.md"
     Click here for more documentation on [Ampli for JRE](./ampli.md).
 
---8<-- "includes/size/java.md"
-    selecting "Amplitude Java SDK".
-
 ## Getting started
 
 Use [this quickstart guide](../../sdks/sdk-quickstart#java) to get started with Amplitude Java SDK.
@@ -363,3 +360,10 @@ You can find examples for [Java](https://github.com/amplitude/ampli-examples/bl
 When debugging, check the logs. The SDK prints error messages.
 
 If you have problems, open an issue on the [GitHub issues page](https://github.com/amplitude/Amplitude-Java/issues).
+
+## Advanced topics
+
+### Bundle size
+
+--8<-- "includes/size/java.md"
+selecting "Amplitude Java SDK".

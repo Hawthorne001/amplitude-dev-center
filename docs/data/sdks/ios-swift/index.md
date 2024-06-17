@@ -9,15 +9,10 @@ icon: simple/ios
 This is the official documentation for the Amplitude Analytics iOS SDK.
 
 !!!info "iOS SDK Resources"
-    [:material-github: GitHub](https://github.com/amplitude/Amplitude-Swift) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Swift/releases) · [:material-book: Examples](https://github.com/amplitude/Amplitude-Swift/tree/main/Examples/AmplitudeSwiftUIExample)
+    [:material-github: GitHub](https://github.com/amplitude/Amplitude-Swift) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Swift/releases) · [:material-book: Examples](https://github.com/amplitude/Amplitude-Swift/tree/main/Examples/AmplitudeSwiftUIExample) · [Migration guide](/data/sdks/ios-swift/migration/)
 
---8<-- "includes/sdk-ios/apple-deprecate-carrier.md"
-
---8<-- "includes/size/ios.md"
-    `./measure_cocoapod_size.py --cocoapods AmplitudeSwift:1.0.0`.
-
-!!! info "Minimum versions"
-    For the minimum supported platform versions of this package, see [`Package.swift`](https://github.com/amplitude/Amplitude-Swift/blob/main/Package.swift#L8-L12) on GitHub.
+--8<-- "includes/ampli-vs-amplitude.md"
+    Click here for more documentation on [Ampli for iOS](./ampli.md).
 
 ## Getting started
 
@@ -1029,6 +1024,10 @@ Implements a customized `loggerProvider` class from the LoggerProvider, and pass
     )
     ```
 
+### Carrier tracking
+
+--8<-- "includes/sdk-ios/apple-deprecate-carrier.md"
+
 ### Offline mode
 
 Beginning with version 1.3.0, the Amplitude iOS Swift SDK supports offline mode. The SDK checks network connectivity every time it tracks an event. If the device is connected to network, the SDK schedules a flush. If not, it saves the event to storage. The SDK also listens for changes in network connectivity and flushes all stored events when the device reconnects.
@@ -1059,10 +1058,6 @@ You can also implement you own offline logic:
 1. Disable the default offline logic as above.
 2. Toggle `amplitude.configuration.offline` by yourself.
 
-### More resources
-
-If you have any problems or issues with the SDK, [create a GitHub issue](https://github.com/amplitude/Amplitude-Swift/issues/new) or submit a request on [Amplitude Help](https://help.amplitude.com/hc/en-us/requests/new).
-
 --8<-- "includes/abbreviations.md"
 
 --8<-- "includes/sdk-ios/privacy-manifest.md"
@@ -1083,3 +1078,16 @@ The SDK only uses `userDefaults` API for identity storage.
 Follow the steps on how to [create your app's privacy](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests#4239187). 
 
 ![The default privacy report.](../../../assets/images/sdk/AmplitudeSwiftUIExample-PrivacyReport.png)
+
+### SDK bundle size
+
+--8<-- "includes/size/ios.md"
+`./measure_cocoapod_size.py --cocoapods AmplitudeSwift:1.0.0`.
+
+### Minimum version
+
+For the minimum supported platform versions of this package, see [`Package.swift`](https://github.com/amplitude/Amplitude-Swift/blob/main/Package.swift#L8-L12) on GitHub.
+
+### More resources
+
+If you have any problems or issues with the SDK, [create a GitHub issue](https://github.com/amplitude/Amplitude-Swift/issues/new) or submit a request on [Amplitude Help](https://help.amplitude.com/hc/en-us/requests/new).

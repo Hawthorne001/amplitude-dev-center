@@ -7,11 +7,9 @@ icon: simple/flutter
 This is the official documentation for the Amplitude Analytics Flutter SDK. The Flutter SDK lets you send events from your Flutter application to Amplitude.
 
 !!!beta "Flutter SDK Resources (Beta)"
-    [:material-github: GitHub](https://github.com/amplitude/Amplitude-Flutter/tree/beta) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Flutter/releases) · [:material-book: Example](https://github.com/amplitude/Amplitude-Flutter/tree/beta/example)
+    [:material-github: GitHub](https://github.com/amplitude/Amplitude-Flutter/tree/beta) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-Flutter/releases) · [:material-book: Example](https://github.com/amplitude/Amplitude-Flutter/tree/beta/example) · [Migration guide](/data/sdks/flutter/migration/)
 
 --8<-- "includes/no-ampli.md"
-
---8<-- "includes/size/flutter.md"
 
 ## Getting started
 
@@ -343,3 +341,9 @@ amplitude.setDeviceId('your-unique-device-id');
 ```dart
 amplitude.reset();
 ```
+
+## Advanced topics
+
+### Bundle size
+
+--8<-- "includes/size/flutter.md"

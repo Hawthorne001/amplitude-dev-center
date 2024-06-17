@@ -11,16 +11,10 @@ search:
 The Node.js SDK lets you send events to Amplitude. This library is open-source, check it out on [GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/v1.x/packages/analytics-node).
 
 !!!info "Node SDK Resources"
-    [:material-github: GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/v1.x/packages/analytics-node) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-TypeScript/releases?q=analytics-node&expanded=true) · [:material-book: API Reference](https://amplitude.github.io/Amplitude-TypeScript/)
+    [:material-github: GitHub](https://github.com/amplitude/Amplitude-TypeScript/tree/v1.x/packages/analytics-node) · [:material-code-tags-check: Releases](https://github.com/amplitude/Amplitude-TypeScript/releases?q=analytics-node&expanded=true) · [:material-book: API Reference](https://amplitude.github.io/Amplitude-TypeScript/) · [Migration Guide](/data/sdks/typescript-node/migration/)
 
 --8<-- "includes/ampli-vs-amplitude.md"
     Click here for more documentation on [Ampli for Node](../typescript-node/ampli.md).
-
---8<-- "includes/sdk-migration/admonition-link-to-migration-docs.md"
-    [Node.JS SDK Migration Guide](/data/sdks/typescript-node/migration/).
-
---8<-- "includes/size/browser.md"
-    For example you can search `@amplitude/analytics-node@0.6.0`.
 
 ## Getting started
 
@@ -585,3 +579,7 @@ amplitude.init(API_KEY, {
 ```
 
 --8<-- "includes/abbreviations.md"
+
+### SDK bundle size
+
+You can find the SDK bundle size for all versions here[@amplitude/analytics-node](https://bundlephobia.com/package/@amplitude/analytics-node).

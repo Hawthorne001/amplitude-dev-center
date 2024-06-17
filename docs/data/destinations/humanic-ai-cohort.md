@@ -4,7 +4,7 @@ description: Sync cohorts from Amplitude to Humanic AI
 status: new
 ---
 
-[Humanic AI](https://www.humanic.ai/) is a Marketing Automation Platform that helps you unlock growth. This integration lets you sync cohorts from Amplitude to Humanic AI. 
+[Humanic AI](https://www.humanic.ai/) is an Agentic Marketing Platform that helps you unlock growth by using AI agents. 
 
 !!!Tip
 
@@ -13,7 +13,6 @@ status: new
 ## Considerations
 
 - You must enable this integration in each Amplitude project you want to use it in.
-- You need to have a paid Humanic.ai plan to enable this integration.
 - Humanic AI supports both email addresses and `customer_id` as the identifier. This means you need to map the `user_id` or user property you select in Amplitude must to either `email` or `customer_id`.
 
 ## Setup
