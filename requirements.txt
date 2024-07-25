@@ -8,8 +8,8 @@ pygments>=2.12
 pymdown-extensions==10.2
 
 # Requirements for Social Previews
-cairosvg==2.5.2
-pillow==9.3.0
+cairosvg==2.7.0
+pillow==10.3.0
 
 # Lightbox requirements
 mkdocs-glightbox==0.2.1
@@ -26,4 +26,6 @@ lxml>=4.6
 paginate>=0.5.6
 readtime>=2.0
 regex>=2022.4.24
-requests==2.31
+requests==2.32.2
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
